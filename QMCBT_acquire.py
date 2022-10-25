@@ -10,6 +10,8 @@ import seaborn as sns
 import os
 from pydataset import data
 from env import get_db_url
+import warnings 
+warnings.filterwarnings("ignore")
 
 
 # # ----------------**TITANIC DATA** ```FROM SQL```----------------
